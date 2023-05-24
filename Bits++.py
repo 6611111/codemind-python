@@ -1,9 +1,9 @@
 t=int(input())
-n = 0
+x=0
 for i in range(t):
-    k = input()
-    if k[0] == '+' or k[1] == '+':
-        n+=1
+    s=input()
+    if s[0]=='+' or s[2]=='+':
+        x=x+1
     else:
-        n-=1
-print(n)
+        x=x-1
+print(x)
