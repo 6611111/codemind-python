@@ -1,3 +1,2 @@
 n=input()
-op=eval(n)
-print(op)
+print(eval(n))
