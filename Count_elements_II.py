@@ -1,0 +1,9 @@
+a,b=map(int,input().split())
+lst1=list(map(int,input().split()))
+lst2=list(map(int,input().split()))
+res=[]
+ont=set(lst1).difference(lst2)
+tno=set(lst2).difference(lst1)
+c1=len(ont)
+c2=len(tno)
+print(c1+c2)
