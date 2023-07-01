@@ -7,5 +7,3 @@ for i in lst:
         if i not in l:
             l.append(i)
 print(len(l))
-
-        
